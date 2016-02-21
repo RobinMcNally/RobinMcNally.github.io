@@ -52,13 +52,14 @@ a {
 }
 
 .title {
+    width: 700px;
+    font-size: 50pt;
     font-family: CasperBold;
     background-color: #2d2d2d;
     border-radius: 0px 0px 10px 10px;
     margin: auto;
     margin-bottom: inherit;
-    width: 700px;
-    font-size: 50pt;
+    padding-top: 10px;
     text-align: center;
     vertical-align: middle;
 
