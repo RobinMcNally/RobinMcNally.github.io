@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Casper;
+    src: url("Casper.ttf");
+}
+
+@font-face {
+    font-family: CasperBold;
+    src: url("Casper Bold.ttf");
+}
+
+body {
+    background-color: #202020;
+    color: #ebebeb;
+    text-align: left;
+    font-family: Casper;
+    font-size: 14pt;
+}
+
+.navbar {
+    background-color: #424242;
+    border-radius: 25px;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navlistitem {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.centerpane {
+    background-color: #424242;
+    width: 800px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: CasperBold;
+    background-color: #373737;
+    border-radius: inherit;
+    margin: auto;
+    margin-bottom: inherit;
+    padding: 20px;
+    width: 700px;
+    font-size: 50pt;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.centertext {
+    padding: 30px;
+}
+
+.heading {
+    font-family: CasperBold;
+    font-size: 20pt;
+    margin-bottom: inherit;
+}
