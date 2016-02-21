@@ -9,16 +9,22 @@
 }
 
 body {
-    background-color: #202020;
+    background-color: #1f1f1f;
     color: #ebebeb;
     text-align: left;
     font-family: Casper;
     font-size: 14pt;
+    border-radius: 10px;
+}
+
+a {
+    color: #ebebeb;
+    text-decoration: none;
 }
 
 .navbar {
     background-color: #424242;
-    border-radius: 10px;
+    border-radius: inherit;
 }
 
 .navlist {
@@ -39,7 +45,7 @@ body {
 .centerpane {
     background-color: #424242;
     width: 800px;
-    border-radius: 10px;
+    border-radius: inherit;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -47,11 +53,10 @@ body {
 
 .title {
     font-family: CasperBold;
-    background-color: #373737;
-    border-radius: inherit;
+    background-color: #2d2d2d;
+    border-radius: 0px 0px 10px 10px;
     margin: auto;
     margin-bottom: inherit;
-    padding: 20px;
     width: 700px;
     font-size: 50pt;
     text-align: center;
